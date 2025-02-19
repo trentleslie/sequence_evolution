@@ -6,8 +6,10 @@ authors = ["Your Name <your.email@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11.7"
-torch = "^2.0.0"
+python = ">=3.10,<3.12"
+torch = ">=2.5.1"
+torchvision = ">=0.20.1"
+torchaudio = ">=2.5.1"
 numpy = "^1.24.0"
 biopython = "^1.81"
 matplotlib = "^3.7.0"
@@ -20,6 +22,7 @@ black = "^23.0.0"
 isort = "^5.12.0"
 flake8 = "^6.0.0"
 mypy = "^1.0.0"
+
 
 [build-system]
 requires = ["poetry-core"]

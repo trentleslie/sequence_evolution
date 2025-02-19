@@ -49,6 +49,10 @@ lib64/
 parts/
 sdist/
 var/
+
+# Installation files
+cuda-keyring_1.1-1_all.deb
+miniconda.sh
 wheels/
 *.egg-info/
 .installed.cfg
