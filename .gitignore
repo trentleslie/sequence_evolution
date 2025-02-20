@@ -56,3 +56,4 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+activations_debug.log
