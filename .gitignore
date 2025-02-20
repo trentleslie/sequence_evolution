@@ -62,3 +62,5 @@ activations_debug.log
 # Submodule local changes
 evo2/*
 !evo2/.gitignore
+vortex/*
+!vortex/.gitignore
