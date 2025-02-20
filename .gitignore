@@ -59,8 +59,13 @@ wheels/
 # Debug logs
 activations_debug.log
 
-# Submodule local changes
+# Submodule local changes and build artifacts
 evo2/*
 !evo2/.gitignore
+!evo2/evo2/
+!evo2/setup.py
+!evo2/pyproject.toml
+!evo2/README.md
+!evo2/LICENSE
 vortex/*
 !vortex/.gitignore
