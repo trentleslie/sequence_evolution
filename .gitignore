@@ -56,4 +56,9 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+# Debug logs
 activations_debug.log
+
+# Submodule local changes
+evo2/*
+!evo2/.gitignore
