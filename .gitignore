@@ -67,5 +67,26 @@ evo2/*
 !evo2/pyproject.toml
 !evo2/README.md
 !evo2/LICENSE
+
 vortex/*
 !vortex/.gitignore
+
+cutlass/*
+!cutlass/.gitignore
+
+transformer_engine/*
+!transformer_engine/.gitignore
+
+googletest/*
+!googletest/.gitignore
+
+cudnn-frontend/*
+!cudnn-frontend/.gitignore
+
+# Build artifacts in any directory
+**/build/
+**/__pycache__/
+**/*.egg-info/
+**/*.pyc
+**/*.pyo
+**/*.so
